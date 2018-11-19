@@ -72,12 +72,6 @@
     <Folder Include="SalesLT\XMLSchemaCollections\" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="PostDeployment.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <PreDeploy Include="PreDeployment.sql" />
-  </ItemGroup>
-  <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
     <Build Include="dbo\Tables\BuildVersion.sql" />
     <Build Include="SalesLT\Tables\Address.sql" />
@@ -113,9 +107,44 @@
     <Build Include="dbo\Functions\StrSumEx.sql" />
     <Build Include="Security\SalesLT.sql" />
     <Build Include="SalesLT\XMLSchemaCollections\ProductDescriptionSchemaCollection.sql" />
-    <Build Include="ExtendedProperties.sql" />
+    <Build Include="dbo\Tables\ErrorLog.sql" />
+    <Build Include="dbo\Tables\BuildVersion.sql" />
+    <Build Include="SalesLT\Tables\Address.sql" />
+    <Build Include="SalesLT\Tables\Customer.sql" />
+    <Build Include="SalesLT\Tables\CustomerAddress.sql" />
+    <Build Include="SalesLT\Tables\Product.sql" />
+    <Build Include="SalesLT\Tables\ProductCategory.sql" />
+    <Build Include="SalesLT\Tables\ProductDescription.sql" />
+    <Build Include="SalesLT\Tables\ProductModel.sql" />
+    <Build Include="SalesLT\Tables\ProductModelProductDescription.sql" />
+    <Build Include="SalesLT\Tables\SalesOrderDetail.sql" />
+    <Build Include="SalesLT\Tables\SalesOrderHeader.sql" />
+    <Build Include="SalesLT\Views\vProductAndDescription.sql" />
+    <Build Include="SalesLT\Views\vProductModelCatalogDescription.sql" />
+    <Build Include="SalesLT\Views\vGetAllCategories.sql" />
+    <Build Include="dbo\Functions\ufnGetSalesOrderStatusText.sql" />
+    <Build Include="dbo\Functions\ufnGetProductSaleLast3Averages.sql" />
+    <Build Include="dbo\Functions\ufnGetAllCategories.sql" />
+    <Build Include="dbo\Functions\ufnGetProductSaleMarks.sql" />
+    <Build Include="dbo\Functions\ufnGetCustomerInformation.sql" />
+    <Build Include="dbo\Stored Procedures\NumberOfClientsWithoutAnOffice.sql" />
+    <Build Include="dbo\Stored Procedures\uspPrintError.sql" />
+    <Build Include="dbo\Stored Procedures\uspLogError.sql" />
+    <Build Include="dbo\Stored Procedures\SelectInformation.sql" />
+    <Build Include="dbo\Stored Procedures\GetInformationForOrders.sql" />
+    <Build Include="dbo\User Defined Types\SqlArray.sql" />
+    <Build Include="dbo\User Defined Types\AccountNumber.sql" />
+    <Build Include="dbo\User Defined Types\Flag.sql" />
+    <Build Include="dbo\User Defined Types\NameStyle.sql" />
+    <Build Include="dbo\User Defined Types\Name.sql" />
+    <Build Include="dbo\User Defined Types\OrderNumber.sql" />
+    <Build Include="dbo\User Defined Types\Phone.sql" />
+    <Build Include="dbo\Functions\StrSumEx.sql" />
+    <Build Include="Security\SalesLT.sql" />
+    <Build Include="SalesLT\XMLSchemaCollections\ProductDescriptionSchemaCollection.sql" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assemblies\Aggregation_Fanction.dll" />
     <None Include="Assemblies\Aggregation_Fanction.dll" />
   </ItemGroup>
   <ItemGroup>
