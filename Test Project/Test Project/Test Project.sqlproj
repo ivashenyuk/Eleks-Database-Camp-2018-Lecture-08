@@ -160,7 +160,8 @@
   </ItemGroup>
   <ItemGroup>
     <SqlCmdVariable Include="DBVersion">
-      <DefaultValue>1.0.0</DefaultValue>
+      <DefaultValue>
+      </DefaultValue>
       <Value>$(SqlCmdVar__1)</Value>
     </SqlCmdVariable>
   </ItemGroup>
