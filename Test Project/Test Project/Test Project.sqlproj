@@ -142,6 +142,7 @@
     <Build Include="dbo\Functions\StrSumEx.sql" />
     <Build Include="Security\SalesLT.sql" />
     <Build Include="SalesLT\XMLSchemaCollections\ProductDescriptionSchemaCollection.sql" />
+    <Build Include="dbo\DBVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\Aggregation_Fanction.dll" />
