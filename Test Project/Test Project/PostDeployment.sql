@@ -9,3 +9,6 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+
+update dbo.DBVersion set EndDate = getdate() where DBVersion = $(DBVersion)
