@@ -4,4 +4,5 @@
 	, StartDate datetime not null
 	, EndDate	datetime null
 	, CountRows int null
+	, tmpColumn int null
 )
