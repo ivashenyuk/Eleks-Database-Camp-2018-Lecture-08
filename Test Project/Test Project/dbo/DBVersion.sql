@@ -3,4 +3,5 @@
 	DBVersion nchar(5) primary key not null
 	, StartDate datetime not null
 	, EndData	datetime null
+	, CountRows int null
 )
