@@ -2,6 +2,10 @@
 (
 	DBVersion nchar(5) primary key not null
 	, StartDate datetime not null
-	, EndDate	datetime null
+<<<<<<< HEAD
+	, EndData	datetime null
 	, CountRows int null
+=======
+	, EndDate	datetime null
+>>>>>>> Develop1
 )

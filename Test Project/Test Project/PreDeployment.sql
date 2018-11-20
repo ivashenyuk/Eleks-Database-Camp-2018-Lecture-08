@@ -9,3 +9,8 @@
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+
+insert into dbo.DBVersion(DBVersion, StartDate, EndDate) 
+	values ('$(DBVersion)', getdate(), null)
+	go
