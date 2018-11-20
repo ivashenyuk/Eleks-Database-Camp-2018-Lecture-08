@@ -11,4 +11,4 @@ Post-Deployment Script Template
 */
 
 
-update dbo.DBVersion set EndDate = getdate() where DBVersion = $(DBVersion)
+update dbo.DBVersion set EndDate = getdate() where DBVersion = '$(DBVersion)'
